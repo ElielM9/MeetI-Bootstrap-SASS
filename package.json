@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch src/scss:public/styles"
+    "compile:sass": "sass --watch src/scss:public/styles",
+    "build:sass": "purgecss --css public/styles/style.css --content index.html --output public/styles/styles.css"
   },
   "author": "Eliel Martinez",
   "license": "ISC",
