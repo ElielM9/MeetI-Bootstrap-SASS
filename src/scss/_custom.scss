@@ -1,0 +1,16 @@
+// Reescribir variables
+$rojo: #f34f51;
+$turqueza: #0098ae;
+$oscuro: #212121;
+
+// Asignar paleta de colores
+$primary: $rojo;
+$secondary: $turqueza;
+$dark: $oscuro;
+
+// Tipografia
+$display-font-weight: 900;
+$headings-font-weight: 700; 
+
+// Importar Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
